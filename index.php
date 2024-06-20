@@ -46,9 +46,9 @@
         </div>
       </nav>
         
-<a href="homepage.html">Home</a>   <a href="index.html">About Us</a> <a href= "contacts.html">Contact Us</a> <!--This line is to provide a pathway to the desired links availabe -->
 
-   
+
+   <?php include_once("templates/nav.php");?>
     <img src="images.images/Microsoft-Logo-PNG-HD-Image.png" alt="" width="1250" height="100" style="object-fit: contain;"> <!--This line of code enables one to make the image appear to the middle of the screen of the website-->
     <h1 style="color: rgb(2, 48, 94);text-decoration: double;text-align: center;"> <!--Displays the heading under the formats specified  -->
         Microsoft Corporation</h1>
@@ -64,8 +64,9 @@
 
 <p> Steve Ballmer replaced Gates as CEO in 2000 and later envisioned a "devices and services" strategy.[8] This unfolded with Microsoft acquiring Danger Inc. in 2008,[9] entering the personal computer production market for the first time in June 2012 with the launch of the Microsoft Surface line of tablet computers, and later forming Microsoft Mobile through the acquisition of Nokia's devices and services division. <br> Since Satya Nadella took over as CEO in 2014, the company has scaled back on hardware and instead focused on cloud computing, a move that helped the company's shares reach their highest value since December 1999.[10][11] Under Nadella's direction, the company has also heavily expanded its gaming business to support the Xbox brand, establishing the Microsoft Gaming division in 2022, dedicated to operating Xbox in addition to its three subsidiaries (publishers). <br> Microsoft Gaming is the third-largest gaming company in the world by revenue as of 2024.[12]. </p>
 <p style="text-align: center; color: rgb(34, 34, 93);text-overflow: ellipsis ;"> <em> ⓒ We beleive in what people make possible </em></p> <!--This line shows microsoft motto -->
-
+<footer>We beleive</footer>
 
 <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</php>
 </html>
