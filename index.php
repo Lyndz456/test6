@@ -8,48 +8,10 @@
     <title>MICROSOFT</title><!--This is the tabs name of the website-->
 </head>
 <body>
-   
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-        
-
 
    <?php include_once("templates/nav.php");?>
-    <img src="images.images/Microsoft-Logo-PNG-HD-Image.png" alt="" width="1250" height="100" style="object-fit: contain;"> <!--This line of code enables one to make the image appear to the middle of the screen of the website-->
+   
+   <img src="images.images/Microsoft-Logo-PNG-HD-Image.png" alt="" width="1250" height="100" style="object-fit: contain;"> <!--This line of code enables one to make the image appear to the middle of the screen of the website-->
     <h1 style="color: rgb(2, 48, 94);text-decoration: double;text-align: center;"> <!--Displays the heading under the formats specified  -->
         Microsoft Corporation</h1>
 
@@ -63,10 +25,10 @@
     <p>As of 2015, Microsoft is market-dominant in the IBM PC compatible operating system market and the office software suite market, although it has lost the majority of the overall operating system market to Android.[7] <br> The company also produces a wide range of other consumer and enterprise software for desktops, laptops, tabs, gadgets, and servers, including Internet search (with Bing), the digital services market (through MSN), mixed reality (HoloLens), cloud computing (Azure), and software development (Visual Studio). </p> <!--This line contains contents-->
 
 <p> Steve Ballmer replaced Gates as CEO in 2000 and later envisioned a "devices and services" strategy.[8] This unfolded with Microsoft acquiring Danger Inc. in 2008,[9] entering the personal computer production market for the first time in June 2012 with the launch of the Microsoft Surface line of tablet computers, and later forming Microsoft Mobile through the acquisition of Nokia's devices and services division. <br> Since Satya Nadella took over as CEO in 2014, the company has scaled back on hardware and instead focused on cloud computing, a move that helped the company's shares reach their highest value since December 1999.[10][11] Under Nadella's direction, the company has also heavily expanded its gaming business to support the Xbox brand, establishing the Microsoft Gaming division in 2022, dedicated to operating Xbox in addition to its three subsidiaries (publishers). <br> Microsoft Gaming is the third-largest gaming company in the world by revenue as of 2024.[12]. </p>
-<p style="text-align: center; color: rgb(34, 34, 93);text-overflow: ellipsis ;"> <em> ⓒ We beleive in what people make possible </em></p> <!--This line shows microsoft motto -->
-<footer>We beleive</footer>
 
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<?php include_once ("templates/footer.php")?>
+
+
 </body>
 </php>
 </html>

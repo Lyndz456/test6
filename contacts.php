@@ -7,7 +7,8 @@
 </head>
 <body>
    <p> 
-    <a href="homepage.html">Home</a>   <a href="index.html">About Us</a> <a href= "contacts.html">Contact Us</a> <br> <br><!--Shows the pages that can be accesssed through this page and provides a way how  one can access them-->
+      <?php include_once("templates/nav.php")?>
+    
         
     <img src="images.images/Microsoft-Logo-PNG-HD-Image.png" alt="" width="1350" height="250" style="object-fit: contain;"><!--This displays the image at the center of the page -->
      <br>
@@ -25,6 +26,7 @@
      </ul>
         
 </p>
-<p style="text-align: center; color: rgb(34, 34, 93);text-overflow: ellipsis ;"> <em> ⓒ We beleive in what people make possible </em></p> <!--This shows the motto of the company -->
+<?php include_once("templates/footer.php") ?>
+
 </body>
 </html>
