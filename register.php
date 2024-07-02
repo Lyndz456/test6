@@ -18,7 +18,7 @@ $insert_message = "INSERT INTO users (fullname, email, password) VALUES ('$fn', 
 
 if ($conn->query($insert_message) === TRUE) {
   //echo "New record created successfully";
-  header("Location:register.php");//when  the info is submitted the page reloads and seems quick
+  header("Location:view_messages.php");//when  the info is submitted the page reloads and seems quick
   exit();
 
 } else {
