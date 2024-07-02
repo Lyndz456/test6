@@ -5,7 +5,7 @@
 <table  border="1px " cellpadding="5px" style="border: 1px solid ; width: 50%; border-collapse: collapse;">
     <tr>
         <thead>
-            <th colspan="2" >Userid</td>
+            <th  >ID</td>
                 <th>Fullname</th>
                 <th>email</td>
                 <th>password</th>
@@ -30,12 +30,12 @@ if ($selec_msg_result->num_rows > 0) {
     ?>
     <tr><!--To edit ,modify rows. If you want more rows type " tr"-->
         <td><?php print $en; ?>.</td>
-        <td> <?php print  $selec_msg_row["userid"]; ?> </td>
+       
         <td> <?php print  $selec_msg_row["fullname"]; ?> </td>
         <td> <?php print  $selec_msg_row["email"]; ?> </td> <!--To make the message show just a preview of your message you add
         .' ' .substr($select_msg_row) ["text_message"], 0 ,12) . '...' ;-->
         <td> <?php print  $selec_msg_row["password"]; ?> </td>
-        <td> [<a href="edit_msgs.php">Edit</a> ] [Del] <?php</td>
+        <td> [<a href="edit_msgs.php?userid=<?php print  $selec_msg_row["userid"]; ?> ">Edit</a> ] [Del] </td>
     
     </tr>
 
