@@ -7,6 +7,8 @@
     <title>Paul Allen</title><!--This is the mae of the tab-->
 </head>
 <body> <!--This is a tag that shows the body of the page-->
+<link rel="stylesheet" href="styles.css">
+
 <?php include_once("templates/nav.php")?>    
 <!--<a href="homepage.html">Home</a>   <a href="index.html">About Us</a> <a href= "contacts.html">Contact Us</a> <br>Displays the links accessible via this webpage-->
     <h1 style="color: rgb(37, 37, 132);">Paul Allen</h1><!--Displays the heading under in the formatted way-->

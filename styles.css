@@ -1,0 +1,62 @@
+header{
+    margin: 5px;
+}
+a:link{
+    color: navy;
+    text-decoration: none;
+}
+a:hover{
+    
+    color: grey;
+    
+}
+a:visited{
+    color: navy;
+}
+nav li{
+    display: inline-block;
+    margin-right: 7px;
+
+}
+ul{
+    text-align: left;
+}
+nav ul{
+    list-style: none;
+    
+}
+h1{
+    text-align: center;
+    font: size 70%;
+    
+}
+.img{
+    position: relative;
+background-image: url(images.images/pexels-salvatore-de-lellis-107015876-9683980.jpg);
+}
+table{
+    text-align: right;
+
+
+}
+body{
+    margin: 0px;
+}
+tr:hover{
+    color: burlywood;
+}
+.T{
+text-align: right;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="styles.css">
+
 <?php require_once ("includes/dp_connect.php"); ?>
 <br>
 
@@ -14,17 +16,17 @@ $spot_msg_result = $conn->query($spot_msg);
 
 $spot_msg_row = $spot_msg_result->fetch_assoc();
 
-if(isset($_POST["update_message"])){
+if(isset($_POST["update"])){
 
 $fn = mysqli_real_escape_string($conn, $_POST["fn"]);
 $email = mysqli_real_escape_string($conn, $_POST["em"]);
 $pass = mysqli_real_escape_string($conn, $_POST["pass"]);
-$userid = mysqli_real_escape_string($conn, $_POST["useid"]);
+$userid = mysqli_real_escape_string($conn, $_POST["userid"]);
+
+//die($userid);
 
 
-
-
-$update_message = "UPDATE users SET fullname='$fn', email='$email', password='$pass' WHERE userid='$userid ' LIMIT 1";//update statment
+$update_message = "UPDATE users SET fullname='$fn', email='$email', password='$pass' WHERE userid='$userid' LIMIT 1";//update statment
 
 if ($conn->query($update_message) === TRUE) {
   //echo "New record created successfully";
@@ -52,7 +54,7 @@ $conn->close();
 <br>
 
 <input type ="submit" name="update" value="Update message" >
-<input type ="hidden" name="userid" value="Update message" <?php print $spot_msg_row["userid"]; ?> > <!--hides the data specified which is user id-->
+<input type ="hidden" name="userid" value="<?php print $spot_msg_row["userid"]; ?>" > <!--hides the data specified which is user id-->
 </form>
 
 <?php require_once("templates/footer.php")?>

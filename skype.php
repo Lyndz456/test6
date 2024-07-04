@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skype</title><!--This is the name of the tab-->
 </head>
+<link rel="stylesheet" href="styles.css">
+
 <body><!--Beggining of the body tag -->
 <?php include_once ("templates/nav.php")?>
     <!--<a href="homepage.html">Home</a>   <a href="index.html">About Us</a> <a href= "contacts.html">Contact Us</a> <br>Shows the accessible pages from this page -->

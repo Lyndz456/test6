@@ -2,6 +2,7 @@
 <br>
 
 <?php require_once("templates/nav.php")?>
+<link rel="stylesheet" href="styles.css">
 
 <?php
 

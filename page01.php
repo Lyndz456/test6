@@ -1,0 +1,15 @@
+<form action ="" method="post">
+    <input type="text" name="fname" id=""> <br>
+    <input type="submit" name="create" value="create">
+</form>
+
+<?php
+session_start();
+
+if(isset($_POST["create"])){
+
+    $_SESSION["fname"] - $_POST["fname"];
+    print $_SESSION["fname"];
+    print ' <br><a href="page02.php">Go to page 02</a>';
+}
+

@@ -1,8 +1,33 @@
-<?php include_once ("templates/nav.php")?>
 <?php require_once("includes/dp_connect.php") ?>
 
+<?php include_once ("templates/nav.php")?>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="background.css">
+
+<?php
+if(isset($_GET ["Delid"])){
+$Delid=$_GET["Delid"];
+
+// sql to delete a record
+$del_msg = "DELETE FROM users WHERE userid= '$Delid'LIMIT 1 ";
+
+if ($conn->query($del_msg) === TRUE) {
+  header("Location:view_messages.php");
+  exit;
+
+} else {
+  echo "Error deleting record: " . $conn->error;
+}
+}
+?>
+<div class="container">
+    
+  <img src="images.images/pexels-salvatore-de-lellis-107015876-9683980.jpg" alt="microsoft logo" style="width:100%;">
+
+  <div class="centered">
 <br><br>
-<table  border="1px " cellpadding="5px" style="border: 1px solid ; width: 50%; border-collapse: collapse;">
+<table  border="1px " cellpadding="5px" style="border: 1px ; width: 50%; border-collapse: collapse;">
     <tr>
         <thead>
             <th  >ID</td>
@@ -13,6 +38,8 @@
             </tr>
         </thead>
     <tbody>
+</div>
+</div>
 <?php
 
 
@@ -35,7 +62,7 @@ if ($selec_msg_result->num_rows > 0) {
         <td> <?php print  $selec_msg_row["email"]; ?> </td> <!--To make the message show just a preview of your message you add
         .' ' .substr($select_msg_row) ["text_message"], 0 ,12) . '...' ;-->
         <td> <?php print  $selec_msg_row["password"]; ?> </td>
-        <td> [<a href="edit_msgs.php?userid=<?php print  $selec_msg_row["userid"]; ?> ">Edit</a> ] [Del] </td>
+        <td> [<a href="edit_msgs.php?userid=<?php print  $selec_msg_row["userid"]; ?> ">Edit</a> ] [<a href="?Delid=<?php print $selec_msg_row["userid"]; ?>"> Del</a> ] </td>
     
     </tr>
 
@@ -48,10 +75,11 @@ if ($selec_msg_result->num_rows > 0) {
  ?>    
    </tbody>
    <thead>
-            <th colspan="2" >Userid</td>
+            <th>Userid</td>
                 <th>Fullname</th>
                 <th>email</td>
                 <th>password</th>
+                <th>action</th>
             </tr>
         </thead>
 

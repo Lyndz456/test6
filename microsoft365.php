@@ -6,6 +6,7 @@
     <title>Microsoft 365</title><!--The name of the tab-->
 </head>
 <body>
+<link rel="stylesheet" href="styles.css">
     <?php include_once("templates/nav.php")?>
     <!--<a href="homepage.html">Home</a>   <a href="index.html">About Us</a> <a href= "contacts.html">Contact Us</a>Shows the links to the available pages accessible on this page -->
     <img src="images.images/jqx1byzt6zxb1.jpg" alt=""  width="1250" height="300" style="object-fit: contain;" ><!--This puts the image at the middle of the page-->
