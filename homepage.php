@@ -8,7 +8,7 @@
     <title>MICROSOFT</title><!--This is the tabs name of the website-->
 </head>
 <body>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 
    <?php include_once("templates/nav.php");?>
    

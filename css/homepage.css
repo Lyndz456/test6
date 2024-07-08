@@ -6,8 +6,9 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
-  margin: auto;
+  position:relative;
+  margin: 0px;
+  margin-right: 0px;
 }
 
 /* Next & previous buttons */
@@ -17,7 +18,7 @@ img {vertical-align: middle;}
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: 0px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -44,7 +45,7 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width:fit-content;
   text-align: center;
 }
 
@@ -52,7 +53,7 @@ img {vertical-align: middle;}
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 0px;
   position: absolute;
   top: 0;
 }

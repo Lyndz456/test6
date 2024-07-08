@@ -6,7 +6,7 @@
     <title>Contact us</title><!--Shows the name of the tab-->
 </head>
 <body>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 
    <p> 
       <?php include_once("templates/nav.php")?>

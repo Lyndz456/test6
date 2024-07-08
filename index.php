@@ -8,8 +8,8 @@
     <?php include_once("templates/nav.php");?> <!-- to access similar content-->
     <?php require_once ("templates/nav.php")?> 
 
-    <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/homepage.css">
 </head>
 <body>
    <!--Require once and include once are similar. The difference comes when yan error occurs in how you type them-->

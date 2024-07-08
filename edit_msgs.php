@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 
 <?php require_once ("includes/dp_connect.php"); ?>
 <br>
