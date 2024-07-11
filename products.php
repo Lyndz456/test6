@@ -24,7 +24,10 @@
         </aside>
 
         <section> <h2> DEVICES </h2>
-    <br>
+    <br> 
+    <div class="table">
+        
+    </div>
 </section>
         <section></section>
         
