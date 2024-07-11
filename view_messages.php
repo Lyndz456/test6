@@ -1,9 +1,10 @@
 <?php require_once("includes/dp_connect.php") ?>
+<link rel="stylesheet" href="css/footernav.css">
 
 <?php include_once ("templates/nav.php")?>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="background.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/background.css">
 
 <?php
 if(isset($_GET ["Delid"])){
@@ -21,11 +22,7 @@ if ($conn->query($del_msg) === TRUE) {
 }
 }
 ?>
-<div class="container">
-    
-  <img src="images.images/pexels-salvatore-de-lellis-107015876-9683980.jpg" alt="microsoft logo" style="width:100%;">
 
-  <div class="centered">
 <br><br>
 <table  border="1px " cellpadding="5px" style="border: 1px ; width: 50%; border-collapse: collapse;">
     <tr>

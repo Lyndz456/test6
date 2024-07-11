@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/footernav.css">
 
 <?php require_once ("includes/dp_connect.php"); ?>
 <br>

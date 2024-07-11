@@ -4,7 +4,7 @@
         <li ><a href="homepage.php">About Us</a> </li>
         <li style=float:right><a href= "contacts.php">Contact Us<a> </li>
         <li style=float:right><a href="register.php">Register</a> </li>
-        <li style=float:right><a href="view_messages.php">View Messages</a> </li>
+        
         <li style=float:right><a href="signup.php">Sign Up</a></li>
     </nav>
     <br> <br>

@@ -10,8 +10,12 @@
 
     <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/footernav.css">
+  
 </head>
 <body>
+
+  
    <!--Require once and include once are similar. The difference comes when yan error occurs in how you type them-->
     <!--In require once, when an error occure, it displays a critical error and refuses to display anything past that line . But in include once, it just displays an error and proceeds to display the content following-->
 
@@ -21,25 +25,28 @@
 
 <!-- Slideshow container -->
 
+
+
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images.images/pexels-salvatore-de-lellis-107015876-9683980.jpg" style="width:100%">
-    <div class="text">Cutting edge Infrastructure</div>
+  
+  <div class="numbertext">1 / 3</div>
+    <img src="images.images/microsoft.jpg" style="width:100% " >
+    <div class="text">Innovation</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="images.images/microsoft.jpg" style="width:100%">
+    <img src="images.images/microsoft.jpeg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="images.images/download.jpeg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">Founder</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -56,31 +63,19 @@
 </div>
        
 <script>
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 0;
+showSlides();
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
 

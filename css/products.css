@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box ;/*for lining up elemnts*/
+}
+body{
+    margin: 0px;
+    background-color: rgb(217, 213, 212);
+}
+header{
+    background-color: grey;
+    text-align: center;
+    padding: 25px;
+    margin: 0px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 15px;
+}
+section{
+    width: 80%;
+    float: left;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}

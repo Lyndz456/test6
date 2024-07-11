@@ -9,6 +9,7 @@
 </head>
 <body>
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/footernav.css">
 
    <?php include_once("templates/nav.php");?>
    

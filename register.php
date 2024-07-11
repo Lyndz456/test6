@@ -2,8 +2,8 @@
 <br>
 
 <?php require_once("templates/nav.php")?>
-<link rel="stylesheet" href="styles.css">
-
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/footernav.css">
 <?php
 
 
@@ -45,4 +45,8 @@ $conn->close();
 <input type ="submit" name="register" value="Register" >
 </form>
 
-<?php require_once("templates/footer.php")?>
+
+
+
+<?php
+require_once("templates/footer.php")?>

@@ -1,0 +1,11 @@
+footer{
+    display:block;
+    clear: both;
+    background-color: rgb(69, 66, 66);
+    color: whitesmoke;
+}
+section{
+    float: left;
+    padding: 25px;
+    margin: 0px;
+}
