@@ -23,7 +23,9 @@
             </ul></p>
         </aside>
 
-        <section> <h2> DEVICES </h2></section>
+        <section> <h2> DEVICES </h2>
+    <br>
+</section>
         <section></section>
         
     </main>
