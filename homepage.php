@@ -7,6 +7,7 @@
 
     <title>MICROSOFT</title><!--This is the tabs name of the website-->
 </head>
+
 <body>
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/footernav.css">

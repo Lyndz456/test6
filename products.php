@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-</head>
-<body>
     <link rel="stylesheet" href="css/products.css">
     <link rel="stylesheet" href="css/footernav.css">
-    
-    <header>
-        Products
+    <link rel="stylesheet" href="css/styles.css">
+
+<body>
+ 
+
+    <?php include_once("templates/nav2.php")?>
+
+    <header class="pheader">
+        PRODUCTS
     </header>
 
     <main>
@@ -23,14 +21,48 @@
             </ul></p>
         </aside>
 
-        <section> <h2> DEVICES </h2>
-    <br> 
-    <div class="table">
+        <section>
+             <h2> DEVICES </h2>
+         
+            <img src="images.images/laptop1.jpeg" alt="">
+               <br> <br>
+            <span class="dropdown">
+
+               <button>Microsoft Edge </button> 
+               <div class="content">
+                   <p>Pro </p>
+                   <p>Pro Plus</p>
+
+                </div>
+            </span>
+        <br> <br>
+            <img src="images.images/laptop2.jpeg" alt="">
+               <br> <br>
+            <span class="dropdown">
+
+               <button>Microsoft Surface Laptop </button> 
+               <div class="content">
+                   <p> Touchscreen </p>
+                   <p>Pro Ultra </p>
+                   <p>Intel 8</p>
+                     
+                </div>
+            </span>
         
-    </div>
-</section>
-        <section></section>
         
+        
+        
+        </section>
+        
+        <aside>
+            <h4>Branches With Stock</h4>
+            <ul>
+                <li>CBD</li>
+                <li>Hurlingam</li>
+                <li>Karen</li>
+            </ul>
+            <h5>*Register for first hand service in an store * </h5>
+        </aside>
     </main>
 </body>
 </html>
