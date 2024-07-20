@@ -39,7 +39,7 @@ $conn->close();
 <input type="email" placeholder="Email Address" name="em"> <br>
 
 <br><label for="password">Password</label><br>
-<input type="text" placeholder= "Password" name="pass"><br>
+<input type="password" placeholder= "Password" name="pass"><br>
 <br>
 
 <input type ="submit" name="register" value="Register" >

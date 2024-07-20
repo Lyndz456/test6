@@ -24,7 +24,7 @@
         <section>
              <h2> DEVICES </h2>
          
-            <img src="images.images/laptop1.jpeg" alt="">
+            <img src="images.images/laptop1.jpeg" alt=""  border="3">
                <br> <br>
             <span class="dropdown">
 
@@ -36,7 +36,8 @@
                 </div>
             </span>
         <br> <br>
-            <img src="images.images/laptop2.jpeg" alt="">
+
+            <img src="images.images/laptop2.jpeg" alt=""  border="3">
                <br> <br>
             <span class="dropdown">
 
@@ -48,7 +49,19 @@
                      
                 </div>
             </span>
-        
+            <br> <br>
+                    <img src="images.images/laptop3.jpeg" alt=""border="3">
+               <br> <br>
+            <span class="dropdown">
+
+               <button>Microsoft Surface co-pilot </button> 
+               <div class="content">
+                   <p> Tablet </p>
+                   <p> Keyboard </p>
+                   <p>Mouse</p>
+                     
+                </div>
+            </span>
         
         
         
@@ -66,3 +79,4 @@
     </main>
 </body>
 </html>
+ <?php include_once ("templates/footer.php")?>
